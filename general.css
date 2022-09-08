@@ -1,0 +1,11 @@
+body{
+  background-color: #BFC2ED;
+  margin: 0;
+  margin-bottom: 1000px;
+  
+}
+html{
+
+  text-decoration: none ; 
+  scroll-behavior: smooth;
+}

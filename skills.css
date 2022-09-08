@@ -1,0 +1,26 @@
+.skills_label
+{
+  font-family: 'Press Start 2P';
+  font-size: 45px;
+  color: #243DCE;
+  text-align: center;
+  margin-top: 160px;
+}
+.skills 
+{
+ display: flex; 
+ flex-wrap: wrap;
+ justify-content: center;
+ gap : 10px;
+ background-color: blue;
+ width: 100%;
+}
+.skills_desc
+{
+ width: 100px;
+ background-color: red;  
+}
+.skills_picture
+{
+
+}
