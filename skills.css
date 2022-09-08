@@ -5,22 +5,26 @@
   color: #243DCE;
   text-align: center;
   margin-top: 160px;
+  margin-bottom: 50px;
 }
 .skills 
 {
  display: flex; 
+ gap : 10px;
  flex-wrap: wrap;
  justify-content: center;
- gap : 10px;
- background-color: blue;
- width: 100%;
+ 
 }
 .skills_desc
 {
- width: 100px;
- background-color: red;  
 }
 .skills_picture
 {
-
+ object-fit: cover;
+}
+.python
+{
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+ 
 }
