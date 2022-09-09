@@ -9,3 +9,7 @@ html{
   text-decoration: none ; 
   scroll-behavior: smooth;
 }
+a:-webkit-any-link {
+  cursor: pointer;
+  text-decoration: none;
+}
