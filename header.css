@@ -24,7 +24,6 @@
   padding-right: 90px;
   padding-top: 20px;
   animation: change_author_name_color 2s linear 2s infinite alternate;
-  
 }
 .elements
 {
@@ -70,19 +69,6 @@
  }
 
 }
-.dark-mode {
-  background-color: #5c5d72;
-}
-.change_light_button
-{
-  border-radius: 20px;
-  border: none;
-  margin-top: -30px;
-}
-.change_light_button_icon
-{
-  width:  100%;
-}
 @media all and (max-width:830px)
 {
   .portfolio_parts
@@ -92,12 +78,13 @@
   .portfolio_parts_reduced
   {
     justify-content: center;
-    visibility: visible;
+    visibility: visible;   
+    margin-left: 50px;
     background-color: red;
     border-radius: 10px;
   }
   .header
   {
-    grid-template-columns: 1fr 1fr;
+    grid-template-columns: 4fr 1fr;
   }
 }
