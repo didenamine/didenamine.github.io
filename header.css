@@ -24,6 +24,12 @@
   padding-right: 90px;
   padding-top: 20px;
   animation: change_author_name_color 2s linear 2s infinite alternate;
+  
+}
+.elements
+{
+  padding-top: 100px;
+  height: 1000px;
 }
 .portfolio_parts
 {
@@ -35,11 +41,19 @@
   font-family: Arial, Helvetica, sans-serif;
   font-size:25px;
   padding-top: 14px;
+  visibility: visible;
+}
+.portfolio_parts_reduced
+{
+  display: inline;
+  visibility: hidden;
+  height: 50px;
+  width: 100px;
 }
 @media all and (max-width:600px)
 {
  .header{
-  grid-template-columns: 1fr;
+  grid-template-columns: 1fr 0px 1fr;
   margin-top: 10px;
  }
  .author_name
@@ -54,6 +68,7 @@
   min-width: 400px;
   padding-top: 5px;
  }
+
 }
 .dark-mode {
   background-color: #5c5d72;
@@ -67,4 +82,22 @@
 .change_light_button_icon
 {
   width:  100%;
+}
+@media all and (max-width:830px)
+{
+  .portfolio_parts
+  {
+    display: none;
+  }
+  .portfolio_parts_reduced
+  {
+    justify-content: center;
+    visibility: visible;
+    background-color: red;
+    border-radius: 10px;
+  }
+  .header
+  {
+    grid-template-columns: 1fr 1fr;
+  }
 }

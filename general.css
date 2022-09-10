@@ -2,10 +2,10 @@ body{
   background-color: #BFC2ED;
   margin: 0;
   margin-bottom: 1000px;
+  align-self: center;
   
 }
 html{
-
   text-decoration: none ; 
   scroll-behavior: smooth;
 }
