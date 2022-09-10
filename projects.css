@@ -25,11 +25,13 @@ width: 40em;
 grid-template-columns: 1fr;
 grid-template-rows: 1fr 3fr;
 padding: 10px;
+
 }
 .pro1:hover .dry_cleaners_app_desc
 {
 color :white ;
 line-height: 120%;
+visibility: visible;
 font-size: 25px;
 }
 .pro1:hover .dry_cleaners_app
@@ -61,6 +63,7 @@ padding: 10px;
   line-height: 120%;
   font-size: 25px;
   margin-top: 10px;
+  visibility: visible;
 }
 .pro2:hover .notes_app
 {
@@ -89,6 +92,7 @@ grid-template-rows: 1fr 3fr;
 .pro3:hover .calculator_app_desc
 {
   color :white ;
+  visibility: visible;
   line-height: 120%;
   font-size: 25px;
   margin-top: 10px;
@@ -121,6 +125,7 @@ grid-template-rows: 1fr 3fr;
 {
   color :white ;
   line-height: 120%;
+  visibility: visible;
   font-size: 25px;
   margin-top: 10px;
   text-align: center;

@@ -9,22 +9,26 @@
 }
 .skills 
 {
- display: flex; 
- gap : 10px;
- flex-wrap: wrap;
- justify-content: center;
- 
+  flex-wrap: wrap;
+  display: flex;
+  gap: 20px;
+  padding: 50px;
 }
 .skills_desc
 {
 }
 .skills_picture
 {
- object-fit: cover;
+  display: inline-block;
+  height: 30%;
 }
-.python
+.python,.c_language,.html,.sql,.css,.javascript,.sqlite
 {
-  display: grid;
-  grid-template-columns: 1fr 1fr;
- 
+display: grid;
+grid-template-columns: 1fr 1fr;
+border-radius: 10px;
+height: 17em;
+cursor: pointer;
+background-color:#9393e1;
+width:23em;
 }
