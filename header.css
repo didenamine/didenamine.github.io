@@ -20,7 +20,7 @@
   text-align: left;
   color: #243DCE;
   font-size: 25px;
-  padding-left: 90px;
+  padding-left: 50px;
   padding-right: 90px;
   padding-top: 20px;
   animation: change_author_name_color 2s linear 2s infinite alternate;
@@ -79,9 +79,13 @@
   {
     justify-content: center;
     visibility: visible;   
-    margin-left: 50px;
+    margin-left: 40px;
     background-color: red;
     border-radius: 10px;
+  }
+  .author_name
+  {
+    padding-left: 50px;
   }
   .header
   {
